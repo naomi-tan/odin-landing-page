@@ -4,6 +4,24 @@ body {
     padding: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0px;
+    border-radius: 10px;
+    box-shadow: none;
+    border-style: none;
+    /*rounded corners*/
+}
+
 header {
     background-color: #1F2937;
     padding: 10px 200px;
@@ -14,14 +32,15 @@ nav {
     justify-content: space-between;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+header h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0px;
+    padding: 0px;
 }
 
 header nav ul {
-    color: #E5E7EB;
-    font-size: 18px;
     list-style: none;
     display: flex;
     margin: 0px;
@@ -29,8 +48,33 @@ header nav ul {
     gap: 30px;
 }
 
+header nav ul,
+.hero-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 .logo {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 600;
+}
+
+.hero-banner {
+    display: flex;
+    gap: 50px;
+    margin: 120px 0px;
+}
+
+.hero-title {
+    flex: 1;
+}
+
+.img-placeholder {
+    background-color: #737c86;
+    flex: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
