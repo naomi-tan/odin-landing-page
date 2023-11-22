@@ -1,3 +1,5 @@
+/* || General Styles */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -19,46 +21,24 @@ button {
     border-radius: 10px;
     box-shadow: none;
     border-style: none;
-    /*rounded corners*/
 }
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* || Header */
 
 header,
 footer {
     background-color: #1F2937;
-    padding: 10px 200px;
 }
 
+header,
+.information,
 footer {
-    display: flex;
-    justify-content: center;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-header h1 {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 800;
-    margin: 0px;
-    padding: 0px;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    gap: 30px;
-}
-
-footer,
-header nav ul,
-.hero-text {
-    color: #E5E7EB;
-    font-size: 18px;
+    padding: 10px 200px;
 }
 
 .logo {
@@ -67,21 +47,90 @@ header nav ul,
     font-weight: 600;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul,
+.hero-text,
+footer {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* || Hero Banner */
+
 .hero-banner {
     display: flex;
     gap: 50px;
     margin: 120px 0px;
 }
 
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0px;
+    padding: 0px;
+}
+
 .hero-title {
     flex: 1;
 }
 
-.img-placeholder {
+.img-placeholder-hero {
     background-color: #737c86;
     flex: 1;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* || Information Section */
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.information {
+    padding-bottom: 200px;
+}
+
+.information ul {
+    display: flex;
+    list-style: none;
+}
+
+.img-placeholder-info {
+    min-width: 100px;
+    min-height: 100px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 3px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.information figcaption {
+    text-align: center;
+}
+
+/* || Quote */
+
+/* || Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
 }
