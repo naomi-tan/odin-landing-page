@@ -20,7 +20,6 @@ button {
     margin: 10px 0px;
     border-radius: 10px;
     box-shadow: none;
-    border-style: none;
 }
 
 ul {
@@ -37,6 +36,7 @@ footer {
 
 header,
 .information,
+.quote,
 footer {
     padding: 10px 200px;
 }
@@ -95,6 +95,11 @@ h1 {
     align-items: center;
 }
 
+.hero-banner button {
+    border-style: none;
+}
+
+
 /* || Information Section */
 
 h2 {
@@ -107,11 +112,6 @@ h2 {
     padding-bottom: 200px;
 }
 
-.information ul {
-    display: flex;
-    list-style: none;
-}
-
 .img-placeholder-info {
     min-width: 100px;
     min-height: 100px;
@@ -119,14 +119,56 @@ h2 {
     border-color: #3882F6;
     border-width: 3px;
     border-radius: 10px;
-    margin: 5px;
+    margin: 0px;
 }
 
 .information figcaption {
     text-align: center;
 }
 
+.info-imgs {
+    display: flex;
+}
+
 /* || Quote */
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote figcaption {
+    font-weight: 800;
+    text-align: end;
+}
+
+/* || Action */
+
+.action {
+    background-color: #3882F6;
+    margin: 100px 200px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.action button {
+    border-style: solid;
+    border-color: #F9FAF8;
+}
+
+h3 {
+    color: #F9FAF8;
+}
 
 /* || Footer */
 
