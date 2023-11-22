@@ -22,9 +22,15 @@ button {
     /*rounded corners*/
 }
 
-header {
+header,
+footer {
     background-color: #1F2937;
     padding: 10px 200px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
 
 nav {
@@ -48,6 +54,7 @@ header nav ul {
     gap: 30px;
 }
 
+footer,
 header nav ul,
 .hero-text {
     color: #E5E7EB;
