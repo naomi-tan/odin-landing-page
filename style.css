@@ -139,7 +139,7 @@ h2 {
 }
 
 .quote blockquote {
-    font-size: 36px;
+    font-size: 26px;
     font-style: italic;
 }
 
@@ -168,6 +168,7 @@ h2 {
 .action button {
     border-style: solid;
     border-color: #F9FAF8;
+    min-width: fit-content;
 }
 
 h3 {
